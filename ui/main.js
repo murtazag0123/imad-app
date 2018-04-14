@@ -20,7 +20,7 @@ button.onclick=function(){
          };
     
     //make the request
-    request.open('get','http://murtazag0123.imad.hasura-app.io/counter',true);
+    request.open('GET','http://murtazag0123.imad.hasura-app.io/counter',true);
     request.send(null);
 
 };
